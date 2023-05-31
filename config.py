@@ -6,7 +6,7 @@ class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'secret-key'
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'phongvmstorage'
-    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'hZlX1q4G35IAxq63jNxsgZT0T/Yhw/SRlw2nItb8XoPzJzup4tMQqBUnzfZP0ZjRvaSa8UUbJvee+AStZcs2lQ=='
+    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'EBG61iSDCLsJBipMb71tpEFSdmK/5t5ipfPYx7o9JiortbVp759vcPgj0jNL610ytgtxIBqL7P1C+AStI60G8Q=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
     SQL_SERVER = os.environ.get('SQL_SERVER') or 'phongvm.database.windows.net'
