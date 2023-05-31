@@ -15,5 +15,5 @@ I decided to choose App Services for the following reasons:
 
 - Complexity and customization: If your app requires a more complex setup, custom configurations, or specific software installations that are not supported by App Service, you might lean towards using a VM. VMs provide more control over the environment and allow you to configure it according to your needs.
 - Resource usage: If your app starts to consume more resources (CPU, memory, storage) or experiences significant fluctuations in resource usage, you might want to consider using a VM. VMs can be more easily scaled vertically (by increasing the resources of a single instance) compared to App Services.
-- Potentially higher costs: If you need to upgrade a portion of your App tier, such as storage, you must upgrade to the next plan tier. This may result in higher costs and underutilized resources
+- Potentially higher costs: If you need to upgrade a portion of your App tier, such as storage, you must upgrade to the next plan tier. This may result in higher costs and underutilized resources. You might change to use VM
 
