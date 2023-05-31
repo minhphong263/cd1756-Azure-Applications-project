@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'phongvm'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F72841B6E9A544AD8AE5986EF842B55B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D2F0C24BFDD64572A5DB4CC2AC2E5293 }}
